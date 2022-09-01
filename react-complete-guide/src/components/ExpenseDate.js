@@ -1,4 +1,4 @@
-function ExpanseDate(props) {
+function ExpenseDate(props) {
 	const month = props.date.toLocaleString('it-IT', { month: 'long' });
 	const day = props.date.toLocaleString('it-IT', { day: '2-digit' });
 	const year = props.date.getFullYear();
@@ -12,4 +12,4 @@ function ExpanseDate(props) {
 	);
 }
 
-export default ExpanseDate;
+export default ExpenseDate;
